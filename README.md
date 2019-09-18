@@ -4,5 +4,5 @@
 ## WeChat: TedGaa
 
 ```python
-def test(test, asda):
+def [密林战斧]
 ```
