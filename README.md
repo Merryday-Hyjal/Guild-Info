@@ -1,8 +1,6 @@
 # Guild-Members
-
-## *[公会人员详细统计](https://github.com/Merryday-Hyjal/Guild-Info/projects/1 "公会人员详细统计")*
-
-## *Summary*
+## [公会人员详细统计](https://github.com/Merryday-Hyjal/Guild-Info/projects/1 "公会人员详细统计")
+## Summary
 |  职业 |  数量 |
 | ------------ | ------------ |
 | ![#D2B48C](https://placehold.it/15/D2B48C/000000?text=+) `战士`  |   |
@@ -13,5 +11,8 @@
 | ![#F5FFFA](https://placehold.it/15/F5FFFA/000000?text=+) `牧师`  |   |
 | ![#ff1493](https://placehold.it/15/ff1493/000000?text=+) `萨满`  |   |
 | ![#FF8C00](https://placehold.it/15/FF8C00/000000?text=+) `德鲁伊`  |  0 |
+
+
+
 
 
