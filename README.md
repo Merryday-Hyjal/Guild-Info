@@ -12,7 +12,7 @@
 | ![#ff1493](https://placehold.it/15/ff1493/000000?text=+) `萨满`  |   |
 | ![#FF8C00](https://placehold.it/15/FF8C00/000000?text=+) `德鲁伊`  |  0 |
 
-
+------------
 
 # Raid 拾取制度
 **G (Gold) + GP (Guild Points)**
