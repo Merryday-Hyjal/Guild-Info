@@ -1,5 +1,5 @@
-# Guild-Members
-## [公会人员详细统计](https://github.com/Merryday-Hyjal/Guild-Info/projects/1 "公会人员详细统计")
+# 公会成员
+## [公会成员详细统计](https://github.com/Merryday-Hyjal/Guild-Info/projects/1 "公会成员详细统计")
 ## Summary
 |  职业 |  数量 |
 | ------------ | ------------ |
@@ -14,5 +14,9 @@
 
 
 
+# Raid 拾取制度
+**G (Gold) + GP (Guild Points)**
 
+什么是`G`?
 
+什么是`GP`?
