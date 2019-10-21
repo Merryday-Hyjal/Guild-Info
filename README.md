@@ -51,4 +51,4 @@
 
 什么是`GP`?
 
-:keycap_thirty:
+:keycap_one:
