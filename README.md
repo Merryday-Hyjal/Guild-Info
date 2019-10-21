@@ -33,6 +33,7 @@
 | **T2**  | :one: :five: :zero: G 起|
 | **武器** | :one: :five: :zero: G 起|
 
+**Tips**
 ```python
 - 每次加价需大于 10G 且为 10G 的倍数
 
