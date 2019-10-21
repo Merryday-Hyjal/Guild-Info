@@ -46,21 +46,27 @@
 
 ### ➧[公会团] **G (Gold) + GP (Guild Points)**
 
-什么是`G`?
-
+什么是`G`? 
+```python
+即"金币", 该制度下装备为限价出售. 例如 [碧空之歌] 限价 150G .
+同时, 每件装备都会通过微信以 [暗拍] 的方式进行竞标, 价高者得. 例如 [碧空之歌] 可出价范围为 1-150G .
+```
 
 什么是`GP`?
+```python
+即"公会点", "公会点数"可以提升竞标时的上限价格, 例如某法师有 5 [GP], 他对碧空之歌最高可出价为 [150G + 5GP] .
+```
 
-
-创建房间
+如何`暗拍`?
+1. 创建房间
 
 ![image](https://github.com/Merryday-Hyjal/Guild-Info/blob/master/Images/787F5410-A109-4EE1-A059-C98D2F921278.jpeg)
 
-加入房间并出分
+2. 加入房间并出分
 
 ![image](https://github.com/Merryday-Hyjal/Guild-Info/blob/master/Images/39AECBC3-E99F-4D1E-9E7A-86E608B96D4D.jpeg)
 
-1分钟计时结束显示结果
+3. 1分钟计时结束后, 显示结果
 
 ![image](https://github.com/Merryday-Hyjal/Guild-Info/blob/master/Images/82781A3E-6B55-49FC-A3C9-AB4E4FA1932C.jpeg)
 
