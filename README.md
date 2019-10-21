@@ -58,7 +58,7 @@
 ------------
 
 
-## Phase2 黑翼之巢
+## Phase2 黑翼之巢/安其拉
 
 ➧ **G (Gold) + GP (Guild Points)**
 
