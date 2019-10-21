@@ -51,7 +51,13 @@
 
 什么是`GP`?
 
-![image](http://github.com/Merryday-Hyjal/Guild-Info/Images/39AECBC3-E99F-4D1E-9E7A-86E608B96D4D.jpeg)
+
+创建房间
+![image](https://github.com/Merryday-Hyjal/Guild-Info/blob/master/Images/787F5410-A109-4EE1-A059-C98D2F921278.jpeg)
+加入房间并出分
+![image](https://github.com/Merryday-Hyjal/Guild-Info/blob/master/Images/39AECBC3-E99F-4D1E-9E7A-86E608B96D4D.jpeg)
+1分钟计时结束显示结果
+![image](https://github.com/Merryday-Hyjal/Guild-Info/blob/master/Images/82781A3E-6B55-49FC-A3C9-AB4E4FA1932C.jpeg)
 
 ------------
 
