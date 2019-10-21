@@ -50,7 +50,9 @@
 
 
 什么是`GP`?
+
 ![image](http://github.com/Merryday-Hyjal/Guild-Info/Images/39AECBC3-E99F-4D1E-9E7A-86E608B96D4D.jpeg)
+
 ------------
 
 
