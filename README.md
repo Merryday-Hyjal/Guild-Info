@@ -25,11 +25,11 @@
 
 | `装备`  |  `价格` |  `补贴职业`  | `金额`  |
 | ------------ | ------------ | ------------ | ------------ |
-| **普通散件** | :five: :zero: G  起 | **Tank**  | :three::zero: G  |
-| **极品散件**| :one::zero::zero: G 起| **Healer**  | :three::zero:  G |
-| **T1**  | :one::five::zero: G 起| **全程** **DPS 前三**  | :five::zero:  G |
-| **T2**  | :one::five::zero: G 起|
-| **武器** | :one::five::zero: G 起|
+| **普通散件** | :five: :zero: G  起 | **Tank**  | :three: :zero: G  |
+| **极品散件**| :one: :zero: :zero: G 起| **Healer**  | :three: :zero:  G |
+| **T1**  | :one: :five: :zero: G 起| **全程** **DPS 前三**  | :five: :zero:  G |
+| **T2**  | :one: :five: :zero: G 起|
+| **武器** | :one: :five: :zero: G 起|
 
 ```python
 - 每次加价需大于 10G 且为 10G 的倍数
