@@ -42,6 +42,7 @@
 ## Phase2 黑翼之巢
 
 ➧ **G (Gold) + GP (Guild Points)**
+
 什么是`G`?
 
 什么是`GP`?
