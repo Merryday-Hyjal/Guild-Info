@@ -58,7 +58,7 @@
 | ------------ | ------------ |
 | **普通散件** | :five: :zero: G  |
 | **极品散件**| :eight: :zero: G | 
-| **T1**  | :one: :zero: :zero: G | 
+| **T1**  | :eight: :zero: G | 
 | **T2**  | :one: :zero: :zero: G |
 | **武器** | :one: :zero: :zero: G |
 
