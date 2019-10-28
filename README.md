@@ -150,7 +150,7 @@ Ex.
 
 ➧ **G (Gold) + GP (Guild Points)**
 
-To be continue...
+To be continued...
 
 
 
