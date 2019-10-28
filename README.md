@@ -9,9 +9,9 @@
 | ![#F5FFFA](https://placehold.it/15/F5FFFA/000000?text=+) `神牧`  | 高 |
 | ![#00BFFF](https://placehold.it/15/00BFFF/000000?text=+) `法师`  | 高 |
 | ![#FFFF00](https://placehold.it/15/FFFF00/000000?text=+) `盗贼`  | 高 |
-| ![#D2B48C](https://placehold.it/15/D2B48C/000000?text=+) `战士`  | 高 |
-| ![#9400d3](https://placehold.it/15/9400d3/000000?text=+) `术士`  | 高 |
-| ![#F5FFFA](https://placehold.it/15/F5FFFA/000000?text=+) `暗牧`  | 高 |
+| ![#D2B48C](https://placehold.it/15/D2B48C/000000?text=+) `战士`  | 中 |
+| ![#9400d3](https://placehold.it/15/9400d3/000000?text=+) `术士`  | 低 |
+| ![#F5FFFA](https://placehold.it/15/F5FFFA/000000?text=+) `暗牧`  | 低 |
 | ![#228B22](https://placehold.it/15/228B22/000000?text=+) `猎人`  | :u6e80: |
 
 
