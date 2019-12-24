@@ -3,16 +3,16 @@
 ## 招聘需求
 |  职业 |  优先级 |
 | ------------ | ------------ |
-| ![#FF8C00](https://placehold.it/15/FF8C00/000000?text=+) `奶德`  | 缺1 |
-| ![#ff1493](https://placehold.it/15/ff1493/000000?text=+) `萨满`  | 缺2 |
-| ![#FF8C00](https://placehold.it/15/FF8C00/000000?text=+) `熊德`  | 缺1 |
-| ![#F5FFFA](https://placehold.it/15/F5FFFA/000000?text=+) `神牧`  | 缺6 |
-| ![#00BFFF](https://placehold.it/15/00BFFF/000000?text=+) `法师`  | 缺6 |
-| ![#FFFF00](https://placehold.it/15/FFFF00/000000?text=+) `盗贼`  | 缺3 |
-| ![#D2B48C](https://placehold.it/15/D2B48C/000000?text=+) `战士`  | 缺4 |
-| ![#9400d3](https://placehold.it/15/9400d3/000000?text=+) `术士`  | 缺2 |
-| ![#F5FFFA](https://placehold.it/15/F5FFFA/000000?text=+) `暗牧`  | :u6e80: |
-| ![#228B22](https://placehold.it/15/228B22/000000?text=+) `猎人`  | 缺1 |
+| ![#FF8C00](https://placehold.it/15/FF8C00/000000?text=+) `奶德`  | 满 |
+| ![#ff1493](https://placehold.it/15/ff1493/000000?text=+) `萨满`  | 满 |
+| ![#FF8C00](https://placehold.it/15/FF8C00/000000?text=+) `熊德`  | 满 |
+| ![#F5FFFA](https://placehold.it/15/F5FFFA/000000?text=+) `神牧`  | 满 |
+| ![#00BFFF](https://placehold.it/15/00BFFF/000000?text=+) `法师`  | 满 |
+| ![#FFFF00](https://placehold.it/15/FFFF00/000000?text=+) `盗贼`  | 满 |
+| ![#D2B48C](https://placehold.it/15/D2B48C/000000?text=+) `战士`  | 满 |
+| ![#9400d3](https://placehold.it/15/9400d3/000000?text=+) `术士`  | 满 |
+| ![#F5FFFA](https://placehold.it/15/F5FFFA/000000?text=+) `暗牧`  | 满 |
+| ![#228B22](https://placehold.it/15/228B22/000000?text=+) `猎人`  | 满 |
 
 
 
