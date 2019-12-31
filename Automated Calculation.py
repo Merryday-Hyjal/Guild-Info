@@ -30,7 +30,6 @@ def merge_data(data_list, disperse_dct):
         if player in disperse_data_dct:
             name_attrs['extra_data'] = disperse_data_dct.get(player) 
     return data_list
-
 def GetDdScale(dps_list, dps_total_gold):
     total_data = 0
     # Calculate the sum of the total output
@@ -58,14 +57,11 @@ def GetDdScale(dps_list, dps_total_gold):
             player_gold = int(dps_total_gold * player_scale)
             csv_write.writerow([player, "{}K".format(player_data/1000), "{}K".format(extra_data/1000), "{}K".format(total_data/1000), player_scale, player_gold])
             gold += player_gold
-    
-
+        csv_write.writerow(["DPS Total","","","","", gold])      
 def GetHeScale(healer_list, healer_total_gold):
     healer_num = len(healer_list)
     baseGold = int(healer_total_gold * 0.8)
     leftGold = int(healer_total_gold * 0.2)
-
-
     healer_data_list = []
     for attrs in healer_list:
         if 'extra_data' in attrs:
@@ -80,7 +76,7 @@ def GetHeScale(healer_list, healer_total_gold):
     with open('Hyjal.csv','a', encoding= 'utf-8', newline = '') as ff:
         csv_write = csv.writer(ff)
         csv_write.writerow(["****","****","****","****","****","****"])
-        x = 0
+        gold = 0
         for attrs in healer_list:
             if 'extra_data' in attrs:
                 player_data = attrs['data'] + attrs['extra_data']
@@ -93,19 +89,43 @@ def GetHeScale(healer_list, healer_total_gold):
             else:
                 player_gold = base_gold
                 scale = ''
-            x += player_gold
+            gold += player_gold
             csv_write.writerow([attrs['name'], '{}K'.format(attrs['data']/1000), '{}K'.format(attrs['extra_data']/1000), \
                 '{}K'.format(base_healer_data/1000), scale, player_gold])
-
-
-        
+        csv_write.writerow(["Healer Total","","","","", gold]) 
+def addTtoCsv(t_number, baseG):
+    with open('Hyjal.csv','a', encoding= 'utf-8', newline = '') as ff:
+        csv_write = csv.writer(ff)
+        csv_write.writerow(["****","****","****","****","****","****"])
+        gold = 0
+        for i in range(1,t_number+1):
+            t_name = "{}T".format(i)
+            t_gold = int(baseG)
+            csv_write.writerow([t_name, '', '', '', '', t_gold])
+            gold += int(t_gold)
+        csv_write.writerow(["T Total","","","","", gold])
 
 if __name__ == '__main__':
-    dps_total_gold = 8797
-    healer_total_gold = 2778
-    disperse_scale = 1000
-    disperse_data_dct = regex_disperse('details_disperse_record.txt', disperse_scale)
-    dps_data_list = merge_data(regex_output('details_dps_record.txt'),disperse_data_dct)
-    healer_data_list = merge_data(regex_output('details_healer_record.txt'),disperse_data_dct)
-    GetDdScale(dps_data_list, dps_total_gold)
-    GetHeScale(healer_data_list, healer_total_gold)
+    # RL Input
+    total_gold = 18920
+    total_sub = 1300
+    total_member = 40
+    t_number = 4
+    dps_number = 26
+    healer_number = 10
+    # Automated Calculation
+    if t_number + dps_number + healer_number == total_member:
+        left_total_gold = total_gold - total_sub
+        baseG = left_total_gold / total_member
+        dps_total_gold = baseG * dps_number
+        healer_total_gold = baseG * healer_number
+        t_total_gold = baseG * t_number
+        disperse_scale = 1000
+        disperse_data_dct = regex_disperse('details_disperse_record.txt', disperse_scale)
+        dps_data_list = merge_data(regex_output('details_dps_record.txt'),disperse_data_dct)
+        healer_data_list = merge_data(regex_output('details_healer_record.txt'),disperse_data_dct)
+        GetDdScale(dps_data_list, dps_total_gold)
+        GetHeScale(healer_data_list, healer_total_gold)
+        addTtoCsv(t_number,baseG)
+    else:
+        print('Does not match the number of personnel, please re-enter!')
